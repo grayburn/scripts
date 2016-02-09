@@ -21,7 +21,7 @@ sh -c 'printf "[SeatDefaults]\ngreeter-show-remote-login=false\n" >/usr/share/li
 sh -c 'printf "[SeatDefaults]\nallow-guest=false\n" >/usr/share/lightdm/lightdm.conf.d/50-no-guest.conf'
 
 echo "Tools install"
-apt-get install -y nmap nbtscan dsniff tcpdump john p7zip openjdk-7-jre openvpn libwebkitgtk-1.0-0 libssl-dev vim macchanger libnl-dev yersinia meld
+apt-get install -y nmap nbtscan dsniff tcpdump john p7zip openjdk-7-jre openvpn libwebkitgtk-1.0-0 libssl-dev vim macchanger libnl-3-dev yersinia meld
 
 echo "Add Repository for Development Wireshark"
 apt-add-repository ppa:dreibh/ppa
